@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content">
+<LinearLayout android:id="@+id/LinearLayout01" xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="fill_parent" android:layout_height="fill_parent" android:orientation="vertical">
+	
+	<TextView android:id="@+id/BackgroundText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Background Color">
+	</TextView>
+	<Spinner android:id="@+id/BackgroundSpinner" android:layout_height="wrap_content" android:layout_width="fill_parent" android:entries="@array/colors">
+	</Spinner>
+	
+	<TextView android:id="@+id/ProjectText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Project Line Color">
+	</TextView>
+	<Spinner android:id="@+id/ProjectSpinner" android:layout_height="wrap_content" android:layout_width="fill_parent" android:entries="@array/colors">
+	</Spinner>
+	
+	<TextView android:id="@+id/TaskText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Task Line Color">
+	</TextView>
+	<Spinner android:id="@+id/TaskSpinner" android:layout_height="wrap_content" android:layout_width="fill_parent" android:entries="@array/colors">
+	</Spinner>
+	
+	<TextView android:id="@+id/NoteText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Note Line Color">
+	</TextView>
+	<Spinner android:id="@+id/NoteSpinner" android:layout_height="wrap_content" android:layout_width="fill_parent" android:entries="@array/colors">
+	</Spinner>
+	
+	<TextView android:id="@+id/DoneText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Done Line Color">
+	</TextView>
+	<Spinner android:id="@+id/DoneSpinner" android:layout_height="wrap_content" android:layout_width="fill_parent" android:entries="@array/colors">
+	</Spinner>
+	
+	<Button android:id="@+id/ConfirmButton" android:text="Save" android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
+	<Button android:id="@+id/ExitButton" android:text="Exit" android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
+
+</LinearLayout>
+</ScrollView>
